@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IBA-MBA Coach — IBA (DU) MBA Admission Prep</title>
+<meta name="description" content="Unofficial coach and progress tracker for the IBA, University of Dhaka MBA admission test: eligibility check, mock analysis, admission-chance estimate, study plan, error log, writing & viva practice.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%237a1533'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='30' font-weight='bold' fill='white' text-anchor='middle'%3EIBA%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <div class="brand">
+      <div class="brand-badge">IBA</div>
+      <div class="brand-text">
+        <strong>MBA Coach</strong>
+        <span>IBA, University of Dhaka</span>
+      </div>
+    </div>
+    <nav id="nav"></nav>
+    <div class="sidebar-foot">
+      <div id="side-countdown" class="side-countdown"></div>
+      <div class="side-disclaimer">Unofficial &amp; community-derived.<br>Always verify with the official IBA circular.</div>
+    </div>
+  </aside>
+  <main id="main">
+    <header id="topbar">
+      <div>
+        <h1 id="page-title">Dashboard</h1>
+        <p id="page-sub"></p>
+      </div>
+      <div id="topbar-actions"></div>
+    </header>
+    <div id="view"></div>
+    <footer id="page-foot">
+      <span>Syllabus, weights and patterns are community-derived — cross-check with the official circular (www.iba-du.edu) and recent test-takers.</span>
+    </footer>
+  </main>
+</div>
+<div id="modal-overlay" class="hidden"><div id="modal-card" role="dialog" aria-modal="true"></div></div>
+<div id="toast" class="hidden"></div>
+
+<script src="js/data.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
